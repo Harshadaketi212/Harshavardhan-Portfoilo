@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshavardhan-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f16eb712c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav> 
+           <h1><span>HARSHAVARDHAN</span><br> DAKETI</h1>
+           <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#portfolio">certificates</a></li>
+                <li><a href="#content">contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+            <p>Business Analyst <i class="fa-solid fa-magnifying-glass"></i></p>
+            <h1>Hi, I'm <span>HARSHAVARDHAN </span><br>from India</h1>
+        </div>
+    </div>
+</div>
+<!------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+             <img src="images/profistional photo-removebg-preview.jpg" >   
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I recently completed my business analyst internship, where I worked on real-world projects creating insightful dashboards using Power BI and Excel data. I love transforming raw data into visually engaging and easy-to-understand reports, making complex information accessible through color and design. This experience has strengthened my analytical skills and deepened my passion for data visualization.
+                    
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links "onclick="opentab('Badges')">Badges</p>
+                    <p class="tab-links "onclick="opentab('Education')">Education</p>
+                    <p class="tab-links "onclick = "opentab('Experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Python Programming</span><br>Solving complex problems</li>                   
+                        <li><span>Web Development</span><br>Web app Development</li>                    
+                        <li><span>Power BI</span><br>Creating interactive dashboards</li>                    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Badges">
+                    <ul> <i class="fa-brands fa-hackerrank"></i>
+                        <li><span>C Language</span><br>5 <i class="fa-solid fa-star"></i> in HackerRank</li>                    
+                        <li><span>Python Programming language</span><br>5 <i class="fa-solid fa-star"></i> in HackerRank</li>                    
+                        <li><span>SQL</span><br>5 <i class="fa-solid fa-star"></i> in HackerRank</li>                    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2018</span><br>I completed my primary education <br>[SURESH HIGH SCHOOL]- 9.7 CGPA</li>                    
+                        <li><span>2018-20</span><br>I completed my secondary education <br>[NARAYANA JUNIOR COLLEGE]- 9.44 CGPA</li>                    
+                        <li><span>2020-24</span><br>I completed my bachelor's degree <br>[ADITYA COLLEGE OG ENGINEERING & TECHNOLOGY]- 6.99 CGPA</li>                    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>SNR eDATAS PVT LTD</span><br> Business Analyst Intern <br><i class="fa-solid fa-calendar-days"></i> [08-12-2024 - Present] </li>                   
+                    </ul>
+                </div>
+
+            </div>
+            <div class="about-col-1"></div>
+        </div>
+    </div>
+</div> 
+  <!-- -----------Projects-----------  -->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="Projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Agricultural Production Optimization Engine:</h2>
+                <p> It is an predictive model to suggest the most
+                    suitable crops to grow based on available climatic(Humidity,Rainfall, Temperature) and soil conditions
+                    (Nitrogen, phosphorous, potassium, PH of soil). </p>
+                <a href="#">learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2><span>Exploring Virtual Canvas using Computer Vision:</span></h2>
+                <p>It can perform tasks such as recognizing
+                    objects or faces in images, detecting and labeling objects in pictures or videos and analyzing video
+                    streams to track movements. And it display the words that we drawn in the new terminal. </p>
+                <a href="https://github.com/Harshadaketi212/Virtual-canvas-using-computer-vision">learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-suitcase"></i>
+                <h2><span>Creating Average sales using Power BI</span></h2>
+                <p>This is a Sales dashboard that created by using Power BI a Comprehensive analysis of sales performance trends, and key Business insights.It involves integrating Excel-based sales data and transforming it into an Interactive and visually appealing dashboard  </p>
+                <a href="#">learn more..</a>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<!-- ------------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Data science & ml intership.jpg" alt="">
+                <div class="layer">
+                    <h3>DataScience & MachineLearning, YBI</h3>
+                    <a href="images/_Data Science and Machine Learning Pro+ Certificate cum Internship.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/WEB TECHNOLOGY_page-0001.jpg" alt="">
+                <div class="layer">
+                    <h3>WEB TECHNOLOGY, DreamSkills</h3>
+                    
+                    <a href="images/WEB TECHNOLOGY.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/nasscom_page-0001.jpg" alt="">
+                <div class="layer">
+                    <h3>Google Cloud Computing,Nasscom</h3>
+                    
+                    <a href="images/nasscom.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>  
+        </div>
+        <a href="images/Additional  Certificates/" class="btn">See More</a>
+    </div>
+
+</div>
+
+<!-- --------content-------- -->
+ <div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Harshadaketi03@gmail.com</p>
+
+                <p><i class="fa-solid fa-phone"></i> 7569893441</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/harshavardhandaketi/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Harshadaketi212"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:harshadaketi03@email.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/harsha_aren_21/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/harshavardhan_resume.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" autocomplete="given-name" required>
+                    <input type="email" name="email" placeholder="your email" autocomplete="given-email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2"> submit</button>
+                </form >
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+
+        <p>copyright <i class="fa-solid fa-copyright"></i> 2024 Harshavardhan all rights reserved<i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for ( tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for ( tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right ="0";
+    }
+    function closemenu(){
+        sidemeu.style.right ="-200px";
+    }
+
+</script>
+
+  
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzBB_NeqaIYAOX2ksikwnWP6WvWr784zIK2yE4owjNH31U19XMwGUShBFkS4oVIAZWd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = " Message sent successfully  "
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
